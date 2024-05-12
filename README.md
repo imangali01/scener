@@ -1,3 +1,3 @@
-`blender --background --python main.py > output.txt`
+`blender --background --python main.py > ./logs/output.txt`
 
-`python run.py > output.txt`
+`python run.py > ./logs/output.txt`

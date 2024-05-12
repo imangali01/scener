@@ -12,8 +12,7 @@ import numpy as np
 import binvox_rw
 
 # Настройка логгера
-logging.basicConfig(filename='logs.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+logging.basicConfig(filename='./logs/logs.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def get_blender_context():
