@@ -222,7 +222,7 @@ color_depth = '8'
 format = 'PNG'
 resolution = 600
 engine = 'BLENDER_EEVEE'
-DATASET_LENGTH = 21
+DATASET_LENGTH = 100
 
 
 # clear_images(f'{output_folder}/images')
