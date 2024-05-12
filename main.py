@@ -317,8 +317,6 @@ objects_class = {
 
 
 start_time = time.time()
-
-total_time = 0
 step = 1
 
 while step <= DATASET_LENGTH:
@@ -382,7 +380,7 @@ while step <= DATASET_LENGTH:
     avg_time_per_iteration = (time.time() - start_time) / step
     remaining_time = avg_time_per_iteration * (DATASET_LENGTH - step)
 
-    logging.info(f'STEP={step}, avg_time={avg_time_per_iteration:.2f}s, current_iter={current_iter:.2f}s, spend_time={(avg_time_per_iteration*step/60):.2f}min, remain ~ {remaining_time/60:.2f}min')
+    logging.info(f'STEP={step}, avg_time={avg_time_per_iteration:.2f}s, current_iter={current_iter:.2f}s, spent_time={(avg_time_per_iteration*step/60):.2f}min, remain ~ {remaining_time/60:.2f}min')
 
     step += 1
 
