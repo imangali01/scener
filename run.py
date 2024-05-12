@@ -7,8 +7,8 @@ import subprocess
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-DATASET_SIZE = 1000 # a number divisible by 100
-BATCHES = int(DATASET_SIZE/2)
+DATASET_SIZE = 5000 # a number divisible by 100
+BATCHES = int(DATASET_SIZE/100)
 
 start_time = time.time()
 step = 1
