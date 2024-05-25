@@ -6,7 +6,7 @@ num_files=19
 # Parse command-line argument
 while getopts "f:" opt; do
   case $opt in
-    f) num_files=$OPTARG ;;
+    f) num_files=$(($OPTARG - 1)) ;;
     \?) echo "Invalid option -$OPTARG" >&2 ;;
   esac
 done
