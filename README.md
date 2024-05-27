@@ -12,7 +12,7 @@ After generating for several hours, the program starts to work slowly, and it wi
 - 10000 sample unique 3d scenes
 
 Used classes from ShapeNet dataset:<br>
-![metadata.png](https://github.com/imangali01/scener-dataset/blob/main/sample/metadata.png)
+![metadata.png](https://github.com/imangali01/scener-dataset/blob/main/images/metadata.png)
 
 Folder structure:
 ```
@@ -54,7 +54,7 @@ scener_dataset
 ### Dataset sample:<br>
 
 #### 3D model:
-![3d_models](https://github.com/imangali01/scener-dataset/blob/main/sample/3d_models.png)
+![3d_models](https://github.com/imangali01/scener-dataset/blob/main/images/3d_models.png)
 
 #### Rendered images
-![rendered_images](https://github.com/imangali01/scener-dataset/blob/main/sample/rendered_images.png)
+![rendered_images](https://github.com/imangali01/scener-dataset/blob/main/images/rendered_images.png)
