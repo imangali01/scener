@@ -6,7 +6,10 @@ A dataset of 10,000 unique 3D scenes, each containing rendered images and corres
 
 Link to dataset [scener-dataset](https://github.com/imangali01/scener-dataset/releases/tag/v1.0)
 
-To generate your own dataset run command:
+To generate your own dataset download 
+[Blender2.9.0](https://download.blender.org/release/Blender2.90/)
+
+basic run command:
 `blender --background --python main.py > ./logs/output.txt`
 
 After generating for several hours, the program starts to work slowly, and it will need to be restarted, this is the code that will run the code on generation and runs it in the subprocess:
