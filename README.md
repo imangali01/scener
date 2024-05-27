@@ -9,16 +9,16 @@ After generating for several hours, the program starts to work slowly, and it wi
 `python run.py > ./logs/output.txt`
 
 
-## Dataset:<br>
+### Dataset:<br>
 
-### 3D models::
+#### 3D model:
 <p float="left">
   <img src="https://github.com/imangali01/scener-dataset/blob/main/sample/images/mesh.png" width="500" />
   <img src="https://github.com/imangali01/scener-dataset/blob/main/sample/images/voxel.png" width="500" /> 
 </p>
 
 
-### Rendered images
+#### Rendered images
 <p float="left">
   <img src="https://github.com/imangali01/scener-dataset/blob/main/sample/images/img_r_010.png" width="200" />
   <img src="https://github.com/imangali01/scener-dataset/blob/main/sample/images/img_r_026.png" width="200" /> 
