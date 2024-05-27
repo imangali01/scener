@@ -65,3 +65,10 @@ scener_dataset
 
 #### Rendered images
 ![rendered_images](https://github.com/imangali01/scener-dataset/blob/main/images/rendered_images.png)
+
+
+### Used sources:
+1. [3D binary voxel converter](https://www.patrickmin.com/binvox/)
+2. [Binvox to numpy array converter](https://dimatura.net/misc_projects/binvox_rw_py/)
+3. [ShapeNet dataset](https://shapenet.org/)
+4. [Blender](https://download.blender.org/release/Blender2.90/])
