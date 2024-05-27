@@ -2,16 +2,24 @@
 
 A dataset of 10,000 unique 3D scenes, each containing rendered images and corresponding 3D models in various formats, derived from ShapeNet classes.
 
+#### 3D model:
+![3d_models](https://github.com/imangali01/scener-dataset/blob/main/images/3d_models.png)
+
+#### Rendered images:
+![rendered_images](https://github.com/imangali01/scener-dataset/blob/main/images/rendered_images.png)
+
 <hr>
 
-Link to dataset [scener-dataset](https://github.com/imangali01/scener-dataset/releases/tag/v1.0)
+Link to [download](https://github.com/imangali01/scener-dataset/releases/tag/v1.0) dataset
 
 To generate your own dataset download 
 [Blender2.9.0](https://download.blender.org/release/Blender2.90/)
 
-basic run command:
-`blender --background --python main.py > ./logs/output.txt`
+1. add [binvox_converter](https://www.patrickmin.com/binvox/) to path
+2. `C:/Program Files/Blender Foundation/Blender 2.90/2.90/python/lib` by this path add [binvox_rw](https://dimatura.net/misc_projects/binvox_rw_py/) to blender python libraries
+3. basic run command: `blender --background --python main.py > ./logs/output.txt`
 
+!Note:
 After generating for several hours, the program starts to work slowly, and it will need to be restarted, this is the code that will run the code on generation and runs it in the subprocess:
 `python run.py > ./logs/output.txt`
 
@@ -57,15 +65,6 @@ scener_dataset
 │           model_64.npz
 ...
 ```
-
-### Dataset sample:<br>
-
-#### 3D model:
-![3d_models](https://github.com/imangali01/scener-dataset/blob/main/images/3d_models.png)
-
-#### Rendered images
-![rendered_images](https://github.com/imangali01/scener-dataset/blob/main/images/rendered_images.png)
-
 
 ### Used sources:
 1. [3D binary voxel converter](https://www.patrickmin.com/binvox/)
