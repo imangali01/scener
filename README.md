@@ -1,5 +1,9 @@
 # scener dataset
 
+A dataset of 10,000 unique 3D scenes, each containing rendered images and corresponding 3D models in various formats, derived from ShapeNet classes.
+
+<hr>
+
 Link to dataset [scener-dataset](https://github.com/imangali01/scener-dataset/releases/tag/v1.0)
 
 To generate your own dataset run command:
