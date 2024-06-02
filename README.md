@@ -66,6 +66,58 @@ scener_dataset
 ...
 ```
 
+### Algorithm of placing objects in scene
+![locations.png](https://github.com/imangali01/scener-dataset/blob/main/images/locations.png)
+There are 11 fixed locations on the scene where objects can be placed on the scene, as shown in the picture.<br>
+At each location, objects can rotate only at specified angles.<br>
+<i>Allowed Rotation Angles</i>
+```
+1 - [0°]
+2 - [0°]
+3 - [0°]
+4 - [0°]
+5 - [0°]
+6 - [0° - 90°]
+7 - [0°, 90°, 180°]
+8 - [270° - 360°]
+9 - [90° - 180°]
+10 - [0°, 180°]
+11 - [180° - 270°]
+```
+This setup ensures that each object is placed logically within the constraints of the scene's design.
+```
+{
+    'bookshelf': {
+        'locations': [1, 2, 3, 4, 5],
+        'synsetId': '02871439',
+    },
+    'sofa': {
+        'locations': [2, 3, 4, 6, 8, 10],
+        'synsetId': '04256520',
+    },
+    'trash': {
+        'locations': [1, 5, 9, 10, 11],
+        'synsetId': '02747177',
+    },
+    'stove': {
+        'locations': [1, 2, 3, 4, 5],
+        'synsetId': '04330267',
+    },
+    'table': {
+        'locations': [6, 7, 8, 10],
+        'synsetId': '04379243',
+    },
+    'piano': {
+        'locations': [2, 3, 4, 6, 7, 8],
+        'synsetId': '03928116',
+    },
+    'chair': {
+        'locations': [6, 7, 8, 9, 10, 11],
+        'synsetId': '03001627',
+    }
+}
+```
+
 ### Used sources:
 1. [3D binary voxel converter](https://www.patrickmin.com/binvox/)
 2. [Binvox to numpy array converter](https://dimatura.net/misc_projects/binvox_rw_py/)
