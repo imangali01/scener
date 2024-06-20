@@ -5,7 +5,7 @@ echo [+] STARTING DOWNLOADING!
 REM Download the tar files
 for /l %%n in (0,1,19) do (
     echo [+] DOWNLOADING scener_%%n.tar...
-    curl -L -O https://github.com/imangali01/scener-dataset/releases/download/v2.0/scener_%%n.tar
+    curl -L -O https://github.com/imangali01/scener-dataset/releases/download/v1.0/scener_%%n.tar
 )
 
 echo [+] COMPLEATED DOWNLOADING!
