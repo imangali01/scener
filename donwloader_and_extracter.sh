@@ -17,7 +17,7 @@ echo '[+] STARTING DOWNLOADING!'
 for n in $(seq 0 $num_files)
 do
     echo '[+] DOWNLOADING scener_'$n'.tar...'
-    wget https://github.com/imangali01/scener-dataset/releases/download/v2.0/scener_${n}.tar
+    wget https://github.com/imangali01/scener-dataset/releases/download/v1.0/scener_${n}.tar
 done
 
 echo '[+] COMPLETED DOWNLOADING!'
